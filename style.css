@@ -160,3 +160,26 @@ button {
 button:hover {
     letter-spacing: 2px;
 }
+
+button:active {
+    transform: scale(1.2);
+}
+
+button:hover+a,
+a:hover {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+a {
+    color: var(--color2);
+    text-align: center;
+    display: block;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.3s;
+}
+
+a:visited {
+    color: var(--color1);
+}
