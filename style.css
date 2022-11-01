@@ -1,0 +1,18 @@
+:root {
+    --color1: #ede4d0;
+    --color2: pink;
+    --color3: #393b4b;
+    --color4: rgb(18, 19, 19);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./bg.jpeg") center/cover;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
